@@ -1,0 +1,143 @@
+#encabezado{
+    margin: auto;
+}
+
+#cuerpo{
+    background-color: white;
+}
+
+body{
+    background-color: #BFEAF5;
+}
+
+section{
+    margin: 50px;
+}
+
+#fondoEncabezado{
+    background-color: #82AAE3;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    margin: 5%;
+}
+#infoPersonal{
+    margin: 10%;
+    padding: 0%;
+}
+
+.panel{
+    padding: 10px 20px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.CajaContenedora{
+    border: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #82AAE3;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+
+.acordeon{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.acordeon:hover{
+    background-color: #BFEAF5;
+}
+
+.acordeon:active{
+    background-color: #91D8E4;
+}
+
+.active{
+    background-color: #BFEAF5;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#columnaDerecha{
+    background-color: #91D8E4;
+}
+
+p, li , dd , dt{
+    font-size: large;
+}
+
+#introduccion{
+    margin-bottom: 45px;
+    text-indent: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+    p, li , dd , dt{
+        font-size: large;
+    }
+
+    #infoPersonal{
+        margin: 10%;
+    }
+
+    section{
+        margin: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p, li , dd , dt{
+        font-size: medium;
+    }
+
+    #infoPersonal{
+        margin: 5%;
+    }
+
+    section{
+        margin: 15px;
+        margin-top: 30px;
+    }
+
+    #introduccion{
+        margin-bottom: 25px;
+    }
+
+    .panel{
+        padding: 5px 10px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    p, li , dd , dt{
+        font-size:14px;
+    }
+
+    #infoPersonal{
+        margin: 3%;
+    }
+
+    section{
+        margin: 10px;
+        margin-top: 20px;
+    }
+
+    #introduccion{
+        margin-bottom: 20px;
+    }
+}
